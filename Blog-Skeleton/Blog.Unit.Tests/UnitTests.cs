@@ -11,7 +11,7 @@ namespace Blog.Unit.Tests
     public class UnitTests
     {
         [Test]
-        public void TestMethod()
+        public void UnitTest()
         {
             // TODO: Add your test code here
             Assert.Pass("Your first passing test");

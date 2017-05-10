@@ -11,7 +11,7 @@ namespace Blog.Integration.Tests
     public class IntegrationTests
     {
         [Test]
-        public void TestMethod()
+        public void FirstIntegrationTest()
         {
             // TODO: Add your test code here
             Assert.Pass("Your first passing test");

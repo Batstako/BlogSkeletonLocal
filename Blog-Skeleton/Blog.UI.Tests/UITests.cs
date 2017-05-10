@@ -1,6 +1,5 @@
 ﻿using System;
 using NUnit.Framework;
-
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,7 +17,7 @@ namespace Blog.UI.Tests
         [Test]
         public void CheckSiteLoad()
         {
-            IWebDriver driver = BrowserHost.Instance.Application.Browser;
+            IWebDriver driver = BrowserHost.Instance.Application.Browser; // BrowserHost - идва от името на метода от Host.cs 
             WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(60));
 
 
