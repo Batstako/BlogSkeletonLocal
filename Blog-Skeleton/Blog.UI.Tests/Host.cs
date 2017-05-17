@@ -19,7 +19,7 @@ namespace Blog.UI.Tests
         {
             //Instance.Run("Blog", 60634); // това пуска само срещу Firefox - не е възможно да работи на един и същи порт като IIS DataBase за това се променя на 60639-примерно, на локално не е проблем но под TeamCity гърми
             //Instance.Run("Blog", 60634, w => w.WithRemoteWebDriver(() => new ChromeDriver())); // Това пуска на Chrome
-            Instance.Run("Blog", 60639); // това пуска когато е през TeamCity - променя се порта
+            Instance.Run("Blog", 60639, w => w.WithRemoteWebDriver(() => new ChromeDriver())); // това пуска когато е през TeamCity - променя се порта
 
         }
     }
